@@ -1,4 +1,4 @@
-from pyspark.sql import SparkSession
+'''from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("Test").getOrCreate()
 
@@ -7,4 +7,6 @@ df = spark.createDataFrame(data,["id","name","marks"])
 
 df.show()
 
-
+'''
+import pyspark
+print(pyspark.__version__)
